@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+    <!--css-->
+    <link rel="stylesheet" href="css/styles.css">
+
+
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+    <!--google fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+
+    <title>Quad Website</title>
+</head>
+
+<link rel="stylesheet" href="css/styles.css">
+
+
+<body style="background-color: #212121;">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
+        <div class="container-fluid" style="height: 100px;">
+
+            <div class="col-lg-4 " style="margin-right: 120px;">
+                <h1 class="navbar-brand brandname1">
+                    <span class="heading" style="color: rgb(54, 173, 173);">HODLINFO</span><span>.com</span>
+                </h1>
+                <p class="brand1" style="margin-top: 10px;font-size: 15px;
+                color: grey;">Powered By <span style="color: rgb(54, 173, 173);">Finstreet</span></p>
+
+            </div>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent " aria-expanded="false " aria-label="Toggle navigation ">
+                <span class="navbar-toggler-icon "></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav navbar1 mr-auto justify-content-between" style="width: 100%;">
+
+
+                    <div class="rows" style="display: flex; justify-content: space-between;">
+                        <div class="flex-child btn1 dropdown">
+                            <li class="nav-item inrbutton">
+                                <button type="button" class="btn btn-secondary rounded-3 btn-sm dropdown-toggle inrbutton" id="dropdownMenuButton1 " data-bs-toggle="dropdown " aria-expanded="false ">INR</button>
+
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                        </div>
+
+
+                        <div class="flex-child btn2 dropdown">
+                            <li class="nav-item btcbutton">
+                                <button type="button" class="btn btn-secondary rounded-3 btn-sm dropdown-toggle btcbutton " id="dropdownMenuButton1 " data-bs-toggle="dropdown " aria-expanded="false ">BTC</button>
+
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                        </div>
+                    </div>
+
+
+
+                    <div class="flex-container nav-item checkbutton">
+
+
+                        <div class="flex-child fiftyimage">
+                            <img class="fifty" src="pictures/fifty.PNG"></div>
+
+                        <div class="flex-child buttonend">
+                            <button type="button" class="btn btn-secondary rounded-3 connectbutton"><img class="icon" src="pictures/icon.jfif ">Connect Telegram</button>
+                        </div>
+
+                        <div class="flex-child switch" style="margin: 0 !important">
+                            <div class="form-check form-switch">
+                                <input class="form-check-input bg-dark switchbutton" style="font-size: 25px;" type="checkbox" id="flexSwitchCheckChecked" checked>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+    <section style="position: relative">
+
+        <table class="table .table-bordered" style="border-radius:10%;position: absolute; z-index: -100;">
+
+            <thead class="table-dark" style="background-color: #212121;">
+                <tr class="tr ">
+                    <th class="theading" scope="col">#</th>
+                    <th class="theading" scope="col">Name</th>
+                    <th class="theading" scope="col">Last</th>
+                    <th class="theading" scope="col">Buy/Sell Price</th>
+                    <th class="theading" scope="col">volume</th>
+                    <th class="theading" scope="col">base_unit</th>
+                </tr>
+            </thead>
+            <tbody style="background-color: rgb(77, 76, 76);">
+
+                <!-- t1 -->
+
+                <tr class="tr">
+                    <th scope="row">1</th>
+                    <td>
+                        <%=ni%>
+                    </td>
+                    <td>
+                        <p>&#8377
+                            <%=li%>
+                        </p>
+                    </td>
+                    <td>
+                        &#8377
+                        <%=bp%> / &#8377
+                            <%=sp%>
+                    </td>
+                    <td>
+                        <%=vi%>
+                    </td>
+                    <td class="forborder">
+                        <%=bi%>
+                    </td>
+                </tr>
+
+
+
+
+                <!-- t2 -->
+
+                <tr class="tr">
+                    <th scope="row">2</th>
+                    <td>
+                        <%=ni1%>
+                    </td>
+                    <td>
+                        <p>&#8377
+                            <%=li1%>
+                        </p>
+                    </td>
+                    <td>&#8377
+                        <%=bp1%> / &#8377
+                            <%=sp1%>
+                    </td>
+                    <td>
+                        <%=vi1%>
+                    </td>
+                    <td class="forborder">
+                        <%=bi1%>
+                    </td>
+                </tr>
+
+
+                <!-- t3 -->
+
+                <tr class="tr">
+                    <th scope="row">3</th>
+                    <td>
+                        <%=ni2%>
+                    </td>
+                    <td>
+                        <p>&#8377
+                            <%=li2%>
+                        </p>
+                    </td>
+                    <td>
+                        &#8377
+                        <%=bp2%> / &#8377
+                            <%=sp2%>
+                    </td>
+                    <td>
+                        <%=vi2%>
+                    </td>
+                    <td class="forborder">
+                        <%=bi2%>
+                    </td>
+                </tr>
+
+                <!-- t4 -->
+                <tr class="tr">
+                    <th scope="row">4</th>
+                    <td>
+                        <%=ni3%>
+                    </td>
+                    <td>
+                        <p>&#8377
+                            <%=li3%>
+                        </p>
+                    </td>
+                    <td>
+                        &#8377
+                        <%=bp3%> / &#8377
+                            <%=sp3%>
+                    </td>
+                    <td>
+                        <%=vi3%>
+                    </td>
+                    <td class="forborder">
+                        <%=bi3%>
+                    </td>
+                </tr>
+                <!-- t5 -->
+                <tr class="tr">
+                    <th scope="row">5</th>
+                    <td>
+                        <%=ni4%>
+                    </td>
+                    <td>
+                        <p>&#8377
+                            <%=li4%>
+                        </p>
+                    </td>
+                    <td>
+                        &#8377
+                        <%=bp4%> / &#8377
+                            <%=sp4%>
+                    </td>
+                    <td>
+                        <%=vi4%>
+                    </td>
+                    <td class="forborder">
+                        <%=bi4%>
+                    </td>
+                </tr>
+
+                <!-- t5 -->
+                <tr class="tr">
+                    <th scope="row">6</th>
+                    <td>
+                        <%=ni5%>
+                    </td>
+                    <td>
+                        <p>&#8377
+                            <%=li5%>
+                        </p>
+                    </td>
+                    <td>
+                        &#8377
+                        <%=bp5%> / &#8377
+                            <%=sp5%>
+                    </td>
+                    <td>
+                        <%=vi5%>
+                    </td>
+                    <td class="forborder">
+                        <%=bi5%>
+                    </td>
+                </tr>
+
+                <!-- t6 -->
+                <tr class="tr">
+                    <th scope="row">7</th>
+                    <td>
+                        <%=ni6%>
+                    </td>
+                    <td>
+                        <p>&#8377
+                            <%=li6%>
+                        </p>
+                    </td>
+                    <td>
+                        &#8377
+                        <%=bp6%> / &#8377
+                            <%=sp6%>
+                    </td>
+                    <td>
+                        <%=vi6%>
+                    </td>
+                    <td class="forborder">
+                        <%=bi6%>
+                    </td>
+                </tr>
+
+
+                <!-- t7 -->
+                <tr class="tr">
+                    <th scope="row">8</th>
+                    <td>
+                        <%=ni7%>
+                    </td>
+                    <td>
+                        <p>&#8377
+                            <%=li7%>
+                        </p>
+                    </td>
+                    <td>
+                        &#8377
+                        <%=bp7%> / &#8377
+                            <%=sp7%>
+                    </td>
+                    <td>
+                        <%=vi7%>
+                    </td>
+                    <td class="forborder">
+                        <%=bi7%>
+                    </td>
+                </tr>
+
+                <!-- t8 -->
+                <tr class="tr">
+                    <th scope="row">9</th>
+                    <td>
+                        <%=ni8%>
+                    </td>
+                    <td>
+                        <p>&#8377
+                            <%=li8%>
+                        </p>
+                    </td>
+                    <td>
+                        &#8377
+                        <%=bp8%> / &#8377
+                            <%=sp8%>
+                    </td>
+                    <td>
+                        <%=vi8%>
+                    </td>
+                    <td class="forborder">
+                        <%=bi8%>
+                    </td>
+                </tr>
+
+                <!-- t9 -->
+                <tr class="tr">
+                    <th scope="row">10</th>
+                    <td>
+                        <%=ni9%>
+                    </td>
+                    <td>
+                        <p>&#8377
+                            <%=li9%>
+                        </p>
+                    </td>
+                    <td>
+                        &#8377
+                        <%=bp9%> / &#8377
+                            <%=sp9%>
+                    </td>
+                    <td>
+                        <%=vi9%>
+                    </td>
+                    <td class="forborder">
+                        <%=bi9%>
+                    </td>
+                </tr>
+
+
+
+
+            </tbody>
+        </table>
+
+    </section>
+</body>
+
+
+</html>

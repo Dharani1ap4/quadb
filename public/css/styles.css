@@ -1,0 +1,146 @@
+.navbar-brand {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(54, 173, 173);
+    font-size: 2.5rem;
+    margin-top: 25px;
+}
+
+.navbar1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* buttons */
+
+.inrbutton {
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-right: 5px;
+}
+
+.btcbutton {
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.connectbutton {
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: rgb(54, 173, 173);
+    border-radius: 15%;
+    width: 170px;
+}
+
+.collapse {
+    width: 100%;
+    background-color: #212529;
+}
+
+
+/* lastsectionofnav*/
+
+.flex-container {
+    display: flex;
+    margin-top: 20px;
+}
+
+.fiftyimage {
+    flex: 1;
+}
+
+.buttonend {
+    flex: 1;
+    margin-right: 40px;
+}
+
+.switch {
+    flex: 1;
+    margin-right: 50px;
+}
+
+
+/* smallbuttonflexbox*/
+
+.rows {
+    margin-top: 20px;
+}
+
+.flex-child {
+    flex: 1;
+}
+
+.flex-child:first-child {
+    flex: 1;
+}
+
+
+/* images */
+
+.icon {
+    margin-left: 1%;
+    float: left;
+    height: 20px;
+    width: 20px;
+    margin-right: 2%;
+}
+
+.fifty {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+
+/* tables */
+
+.table {
+    font-family: 'Roboto Condensed', sans-serif;
+    border-collapse: separate;
+    border-spacing: 0 20px;
+}
+
+.theading {
+    color: rgb(150, 142, 142);
+    border-radius: 0px;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.tr {
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+.forborder {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+th {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+
+/* MEDIAQUERIES */
+
+@media only screen and (max-width:998px) {
+    .navbar1 {
+        align-items: flex-start;
+        padding: 15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    .checkbutton {
+        margin-top: 20px;
+    }
+}
